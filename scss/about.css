@@ -1,0 +1,38 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap);
+body {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.navbar {
+  margin: 0% 5%;
+  background-color: #e23e57;
+}
+
+.monokuma-logo {
+  width: 3.125rem;
+  height: auto;
+}
+
+.about, .quotes {
+  margin: 2% 5%;
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+.blockquote {
+  margin: 2% 30%;
+  padding: 5%;
+  border-radius: 5%;
+  background-color: #311d3f;
+  color: #fff;
+  position: relative;
+}
+
+.blockquote-footer {
+  color: #fff;
+}
+
+.quotes {
+  height: 200px;
+}
+/*# sourceMappingURL=about.css.map */

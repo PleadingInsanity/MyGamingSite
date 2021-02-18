@@ -1,0 +1,98 @@
+//This SCSS file contains styles for the Index/Home page
+
+@import "partials/mixins";
+@import "partials/functions";
+@import "partials/fonts";
+@import "partials/colors";
+
+// General Styles
+
+body {
+    font-family: $fontFamily;
+}
+
+h1 {
+    font-weight: 900;
+}
+
+// Navbar Styles
+
+.navbar {
+    @include container-margin;
+    background-color: $backgroundColor1;
+}
+
+.monokuma-logo {
+    width: rem(50px);
+    height: auto;
+}
+
+
+// Jumbotron Styles
+
+.jumbotron {
+    @include container-margin; 
+    border-radius: 0;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.3) 0%,rgba(255,255,255,0.6) 100%), url("../images/danganronpa-header.jpg"); 
+}
+
+.header-text {
+    color: $textColor2;
+    font-weight: bold;
+    text-align: center;
+}
+
+.header-paragraph {
+    font-size: rem(30px);
+}
+
+.welcome {
+    font-size: rem(70px);
+}
+
+// Currently Playing Styles
+
+.playing {
+    @include container-full-margin;
+    font-size: rem(30px);
+    color: $textColor2;
+    padding: 0;
+}
+
+.playing-list {
+    list-style-type:none;
+    padding-left: 1%;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: white;
+}
+
+.img-carousel {
+    width: 100%;
+    height: rem(300px);
+    align-items: center;
+}
+
+
+// Gaming Channels Styles
+
+.channels {
+    @include container-full-margin;
+    padding: 2% 5% 2% 1%;
+    background-color: $backgroundColor1;
+    color: $textColor1;
+}
+
+th, td { 
+    text-align:left;  
+    padding:5px ;
+    font-size: rem(18px);
+}
+
+.channel-link{
+    color: $textColor1;
+}

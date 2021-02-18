@@ -1,0 +1,68 @@
+//This SCSS file contains styles for the Favourites as well as the Save For Later page
+
+@import "partials/mixins";
+@import "partials/functions";
+@import "partials/fonts";
+@import "partials/colors";
+
+// General Styles
+
+body {
+    font-family: $fontFamily;
+}
+
+.row {
+    margin: 0;
+}
+
+.col-md-6 {
+    margin: 0;
+    padding: 5%;
+}
+
+// Navbar Styles
+
+.navbar {
+    @include container-margin;
+    background-color: $backgroundColor1;
+}
+
+.monokuma-logo {
+    width: rem(50px);
+    height: auto;
+}
+
+// Favourites article styles
+
+.fav-game1, .fav-game2, .fav-game3 {
+    @include container-full-margin;
+    font-size: rem(25px);
+    color: $textColor1;
+    padding:0;
+}
+
+.fav-game1 {
+    background-color: $backgroundColor3;
+}
+
+.fav-game2 {
+    background-color: $backgroundColor2;
+}
+
+.fav-game3 {
+    background-color: $backgroundColor1;
+}
+.favourites-img {
+    width: 100%;
+    height: rem(250px);
+}
+
+//Buttons styles
+
+.btn {
+    color: $textColor1;
+}
+
+.comment {
+    border-top: 2px solid grey;
+}

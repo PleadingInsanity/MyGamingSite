@@ -1,0 +1,30 @@
+//This SCSS file contains styles for the Contact page
+
+@import "partials/mixins";
+@import "partials/functions";
+@import "partials/fonts";
+@import "partials/colors";
+
+//General Styles 
+
+body {
+    font-family: $fontFamily;
+}
+
+// Navbar Styles
+
+.navbar {
+    @include container-margin;
+    background-color: $backgroundColor1;
+}
+
+.monokuma-logo {
+    width: rem(50px);
+    height: auto;
+}
+
+// Contact form styles
+
+.contact-forms {
+    @include container-full-margin;
+}
