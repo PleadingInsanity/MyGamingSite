@@ -15,13 +15,13 @@ This project is a website dedicated to my gaming hobby. It is meant to display m
 
 The Navbar takes the user to the selected page. Clicking on the icon on the left of the navbar will return the user to the index page. The search bar is not currently functional.
 
-![Image of navbar](/readme-images/navbar.png)
+![Image of navbar](readme-images/navbar.PNG)
 
 ### INDEX PAGE USAGE
 
 The index page features a Bootstrap jumbotron. It also displays a Bootstrap carousel of games I am currently playing. The dots on the carousel images are clickable if you want to navigate to a specific image. The page also provides clickable links to some of my favourite Youtube gaming channels.
 
-![Carousel](/readme-image/carousel.png)
+![Carousel](readme-images/carousel.PNG)
 
 ### ABOUT PAGE USAGE
 
@@ -31,13 +31,13 @@ The about page gives a brief overview of the author and has an animated clickabl
 
 The favourites page allows for some interactivity for the user. The user can like a selected article by clicking the like button and upon doing so the heart icon will fill in. The user can also save a selected article by clicking the save button and upon doing so the star icon will fill in. Saved items will appear on the Saved For Later page. 
 
-![Save and like buttons empty](/readme-images/save-like-outline.png)
-![Save and like buttons filled in](/readme-images/save-like-solid.png)
+![Save and like buttons empty](readme-images/save-like-outline.PNG)
+![Save and like buttons filled in](readme-images/save-like-solid.PNG)
 
 The user can also comment on an article and view comments on the article. The states of all these features are stored in local storage on the user's browser. 
 
-![Comments form](/readme-images/comment-form.png)
-![View comments](/readme-images/view-comment.png)
+![Comments form](readme-images/comment-form.PNG)
+![View comments](readme-images/view-comment.PNG)
 
 
 ### SAVED FOR LATER PAGE USAGE
