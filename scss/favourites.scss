@@ -15,11 +15,6 @@ body {
     margin: 0;
 }
 
-.col-md-6 {
-    margin: 0;
-    padding: 5%;
-}
-
 // Navbar Styles
 
 .navbar {
@@ -52,10 +47,22 @@ body {
 .fav-game3 {
     background-color: $backgroundColor1;
 }
-.favourites-img {
-    width: 100%;
-    height: rem(250px);
+
+.fav-text {
+    margin: 0;
+    padding: 5%;
 }
+
+.img-col {
+    margin: 0;
+    padding: 5%;
+}
+
+// .favourites-img {
+//     width: 100%;
+//     height: auto;
+//     object-fit: scale-down;
+// }
 
 //Buttons styles
 
@@ -63,6 +70,13 @@ body {
     color: $textColor1;
 }
 
+//Comments styles
 .comment {
+    @include container-full-margin;
     border-top: 2px solid grey;
+}
+
+//Comment for styles
+.cmt-form {
+    @include container-full-margin;
 }
