@@ -73,8 +73,9 @@ h1 {
 
 .img-carousel {
     width: 100%;
-    height: rem(300px);
+    height: rem(400px);
     align-items: center;
+    object-fit: scale-down;
 }
 
 

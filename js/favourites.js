@@ -70,7 +70,7 @@ $(document).ready(function () {
     $(".article").each(function (index) {
         index = index + 1;
         $(this).after(`        
-        <div class="container d-none cmt-form" id="cmt-form${index}">
+        <div class="container-full-bg d-none cmt-form" id="cmt-form${index}">
         <h2>Enter a Comment</h2>
         <form>
             <label for="name${index}">Enter your name: </label>
@@ -101,7 +101,7 @@ $(document).ready(function () {
         let currentComment = comments[`comments${i}`]
         for (let j = 0; j < currentComment.length; j++) {
             $(`#cmt-display${i}`).append(`
-    <div class = "comment container">
+    <div class = "comment container-full-bg">
     <strong>Name:</strong> ${currentComment[j].name} <br>
     <strong>Subject-line:</strong> ${currentComment[j].subjectLine} <br> 
     <strong>Comment:</strong> ${currentComment[j].comment} <br> 

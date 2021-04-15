@@ -9,10 +9,10 @@ $(document).ready(function () {
         $(this).find(".dropdown-menu").toggleClass("show");
     });
 
-    //Retrieves number of articles from local storage abd displays each article to look the same as it does on the Favourites page
+    //Retrieves number of articles from local storage and displays each article to look the same as it does on the Favourites page
 
     for (let i = 1 ; i <= Number(localStorage.getItem(`noOfArticles`)) ; i++) {
-        $(".saved-items").append(`<div class = 'container fav-game${i}'></div>`);
+        $(".saved-items").append(`<div class = 'container-full-bg fav-game${i}'></div>`);
         if (localStorage.getItem(`saved${i}`) === 'true') {
             $(`.fav-game${i}`).append(localStorage.getItem(`game${i}`));
         } else {
